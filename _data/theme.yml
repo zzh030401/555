@@ -1,0 +1,41 @@
+# Theme Skin
+skin: plum # default, night, plum, sea, soft, steel
+
+# Theme Text
+t:
+  skip_links: "跳转链接 Skip links"
+  skip_primary_nav: "转到主导航 Skip to primary navigation"
+  skip_content: "转到内容页 Skip to content"
+  skip_footer: "转到页脚 Skip to footer"
+  menu: "菜单 Menu"
+  search: "Search"
+  site_search: "Site Search"
+  results_found: "Result(s) found"
+  search_placeholder_text: "Enter your search term..."
+  home: "主页"
+  newer: "Newer"
+  older: "Older"
+  email: "Email"
+  subscribe: "订阅 Subscribe"
+  read_more: "更多内容 Read More"
+  posts: "文章 Posts"
+  page: "页面 Page"
+  of: "of"
+  min_read: "1min read"
+  present: "当下 Present"
+
+# Google Fonts
+google_fonts:
+  - name: "Fira Sans"
+    weights: "400,400i,600,600i"
+
+# Link to specific internal pages in the navigation.
+# Create a custom list to override the default setting of including links to all
+# pages that have a `title`. Add raw page paths in the order you'd like.
+
+navigation_pages:
+  - about.md
+  - 平面设计.md
+  - 网站设计.md
+  - SVG笔记.md
+  - 学习笔记.md
