@@ -1,95 +1,60 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-lang: zn-CN
-title: Qiu Xiaofeng Very Good
-email:
-<<<<<<< HEAD
-description:
-baseurl: "Xiaofeng" #jekyll-theme-basically-basic"# the optional subpath of your site, e.g. "/blog"
-url: "https://gitee.com/EdisonQXF/projects"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-=======
-description: "ZM's Personl Website"
-baseurl: "/zhangzhihao-com" # the optional subpath of your site, e.g. "/blog"
-url: "http://zhangzhihao-com.gitee.io/web-exercise" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io/Web-exercise"
->>>>>>> a03c461e43a25671f4b5b91ab68733311cbb2150
+title: Your awesome title
 author:
-  name: "丘小峰"
-  twitter:
-  picture:
-twitter_username:
-github_username: "EasonQXF"
-logo: "/assets/images/qxf.jpg" # path of site logo, e.g. "/assets/images/logo.png"
-search: true #, false (default)
-search_full_content: true # true, false (default)
-search_provider: # lunr (default), algolia
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
+  name: GitHub User
+  email: your-email@domain.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: jekyllrb
+    github:  jekyll
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 # Build settings
-markdown: kramdown
-# theme: jekyll-theme-basically-basic
-plugins: # previsously gems
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-feed:
-  path: atom.xml
+theme: minima
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 5
-paginate_path: /page:num/
-
-# Exclude from processing.
-exclude:
-  - .asset-cache
-  - .bundle
-  - .codeclimate.yml
-  - .editorconfig
-  - .gitattributes
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .scss-lint.yml
-  - CHANGELOG
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - node_modules
-  - Rakefile
-  - README
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - /docs # ignore Basically Basic sample site
-  - /example # ignore Basically Basic dev site
-
-# Front Matter Defaults
-defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      read_time: true
-
-# 畅言
-changyan_appid: 'cyuiXHhTr'
-changyan_conf: '51e86dde54ea532e0fcfcf1bcfb31528'
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag

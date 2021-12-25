@@ -1,28 +1,27 @@
 # Theme Skin
-skin: sea # default, night, plum, sea, soft, steel
+skin: default # default, night, plum, sea, soft, steel
 
 # Theme Text
 t:
-  skip_links: "跳过链接 Skip links"
-  skip_primary_nav: "跳到主导航 Skip to primary navigation"
-  skip_content: "跳到内容 Skip to content"
-  skip_footer: "跳到页尾 Skip to footer"
-  menu: "选单 Menu"
+  skip_links: "Skip links"
+  skip_primary_nav: "Skip to primary navigation"
+  skip_content: "Skip to content"
+  skip_footer: "Skip to footer"
+  menu: "Menu"
   search: "Search"
-  site_search: "Site Search"
   results_found: "Result(s) found"
   search_placeholder_text: "Enter your search term..."
-  home: "家 Home"
-  newer: "较新 Newer"
-  older: "较旧 Older"
+  home: "Home"
+  newer: "Newer"
+  older: "Older"
   email: "Email"
-  subscribe: "订阅 Subscribe"
-  read_more: "继续阅读 Read More"
-  posts: "文章 Posts"
-  page: "页面 Page"
+  subscribe: "Subscribe"
+  read_more: "Read More"
+  posts: "Posts"
+  page: "Page"
   of: "of"
-  min_read: "分钟可读完"
-  present: "当下 Present"
+  min_read: "min read"
+  present: "Present"
 
 # Google Fonts
 google_fonts:
@@ -35,9 +34,7 @@ google_fonts:
 
 navigation_pages:
   - about.md
-  - 网站设计.md
   - 平面设计.md
-  - SVG制作.md
-  - 课堂笔记.md
-  - 自我策展.md
-  - cv.md
+  - 网站设计.md
+  - SVG笔记.md
+  - 学习笔记.md
