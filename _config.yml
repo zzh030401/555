@@ -17,8 +17,8 @@ lang: zh-CN
 title: ZM's Personl Website
 email:
 description: "ZM's Personl Website"
-baseurl: "/zm_zero" # the optional subpath of your site, e.g. "/blog"
-url: "https://zm_zero.gitee.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "/zhangzhihao-com" # the optional subpath of your site, e.g. "/blog"
+url: "http://zhangzhihao-com.gitee.io/web-exercise" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io/Web-exercise"
 author:
   name:  "zhaoman"
   twitter:
