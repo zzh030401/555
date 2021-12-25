@@ -16,9 +16,15 @@
 lang: zn-CN
 title: Qiu Xiaofeng Very Good
 email:
+<<<<<<< HEAD
 description:
 baseurl: "Xiaofeng" #jekyll-theme-basically-basic"# the optional subpath of your site, e.g. "/blog"
 url: "https://gitee.com/EdisonQXF/projects"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+=======
+description: "ZM's Personl Website"
+baseurl: "/zhangzhihao-com" # the optional subpath of your site, e.g. "/blog"
+url: "http://zhangzhihao-com.gitee.io/web-exercise" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io/Web-exercise"
+>>>>>>> a03c461e43a25671f4b5b91ab68733311cbb2150
 author:
   name: "丘小峰"
   twitter:
