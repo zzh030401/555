@@ -1,10 +1,18 @@
 ---
-title: "关于我"
-layout: about
+layout: page
+title: About
+permalink: /about/
 ---
-## 新媒体研究中心研究员
-## 中山大学南方学院 文学与传媒学院 教师
-## 开设课程：
-* 《网页设计》
-* 《用户界面设计》
-* 《APP原型设计》
+
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
+
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
+
+
+[jekyll-organization]: https://github.com/jekyll
